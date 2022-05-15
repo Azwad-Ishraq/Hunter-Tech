@@ -1,0 +1,162 @@
+.container{
+
+}
+.wrapper{
+    padding: 20px;
+}
+.title{
+    text-align: center;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.topButton{
+    padding: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.topText{
+    text-decoration: underline;
+    cursor: pointer;
+    margin: 0 10px;
+    font-weight: bold;
+}
+.info{
+    flex: 3;
+}
+
+.product{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding: 30px;
+}
+.productDetail{
+    flex: 2;
+    display: flex;
+    
+}
+.details{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.img{
+    width: 250px;
+}
+.productName{
+    font-size: 20px;
+}
+.productId{
+    font-size: 20px;
+}
+.productColor{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.productVarient{
+    font-size: 20px;
+}
+.priceDetail{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.productAmountContainer{
+    display: flex;
+    align-items: center;
+
+}
+.productPrice{
+    font-size: 30px;
+    font-weight: 200;
+}
+.productAmount{
+    font-size: 24px;
+    margin: 5px;
+}
+.summary{
+    flex: 1;
+    border: .5px solid lightgray;
+    border-radius: 10px;
+    padding: 20px;
+    height: 50vh;
+}
+.summaryTitle{
+
+}
+.summaryItem{
+    margin: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.summaryItemText{
+
+}
+.summaryItemPrice{
+
+}
+.button{
+    padding: 10px;
+    background-color: black;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1100px) {
+    .bottom{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:700px) {
+   .top{
+       padding: 10px;
+   }
+   .topText{
+        font-size: 12px;    
+    }
+    .topTexts{
+        display: flex;
+        flex-direction: column;
+    }
+    .product{
+        padding: 10px;
+    }
+    .img{
+        width: 200px;
+    }
+    .productName{
+        font-size: 15px;
+    }
+    .productId{
+        font-size: 15px;
+    }
+    .productVarient{
+        font-size: 15px;
+    }
+    .productPrice{
+        font-size: 20px;
+        
+    }
+    .productAmount{
+        font-size: 17px;
+       
+    }
+}
+@media screen and (max-width:500px) {
+    .productDetail{
+        flex-direction: column;
+    }
+}

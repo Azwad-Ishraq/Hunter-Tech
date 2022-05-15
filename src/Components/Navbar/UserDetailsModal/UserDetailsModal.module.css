@@ -1,0 +1,40 @@
+.container{
+    /* height: 30vh; */
+    width: 20%;
+    background-color: white;
+    position: absolute;
+    z-index: 2;
+    top: 85px;
+    box-shadow: 5px 5px 20px rgba(128, 128, 128, 0.363);
+    /* position: relative; */
+}
+.top{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.avatar{
+    margin-bottom: 10px;
+
+}
+.userName{
+    font-weight: bold;
+    margin: 10px 0px!important;
+}
+.userEmail{
+    color: gray;
+    font-weight: 400;
+    margin: 10px 0px!important;
+
+}
+.closeIcon{
+    position: absolute;
+    top: 100px;
+    z-index: 5;
+    right: 40px;
+    cursor: pointer;
+}
+.closeIcon:hover{
+    color: royalblue;
+}

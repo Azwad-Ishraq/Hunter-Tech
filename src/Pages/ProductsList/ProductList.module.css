@@ -1,0 +1,32 @@
+.container{
+
+}
+.title{
+    margin: 20px;
+}
+.filterContainer{
+    display: flex;
+    justify-content: space-between;
+
+}
+.filter{
+    margin: 20px;
+}
+.filterText{
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+.select{
+    padding: 10px;
+    margin-left: 20px;
+    border: 1px solid lightgray;
+}
+.select:focus{
+    outline: none;
+    border: 1px solid gray;
+}
+.option{
+    color: black;
+    font-weight: bold;
+}

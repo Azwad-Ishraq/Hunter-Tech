@@ -1,0 +1,56 @@
+.container{
+    height: 60vh;
+    background-color: #ecf0f1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.title{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+.description{
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+.inputContainer{
+    width: 50%;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid lightgray;
+}
+.input{
+    border: none;
+    background-color: transparent;
+    padding-left: 10px;
+    flex: 15;
+
+}
+.input:focus{
+    outline: none;
+}
+.button{
+    flex: 1;
+    background-color: #2d3e50;
+    border: none;
+    cursor: pointer;
+
+}
+.sendIcon{
+    color: white;
+}
+@media screen and (max-width:500px) {
+    .title{
+        font-size: 50px;
+        
+    }
+    .description{
+        font-size: 15px;
+    }
+}
